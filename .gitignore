@@ -1,2 +1,3 @@
 node_modules/
-paackages/**/node_modules
+packages/**/node_modules
+docs/node_modules
