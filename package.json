@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "preview:build": "vite build",
     "changeset": "changeset",
+    "changeset:publish": "changeset publish",
     "packages:build": "pnpm --filter=@duan-swordsman/* run build"
   },
   "keywords": [],
