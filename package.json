@@ -7,7 +7,10 @@
     "preinstall": "npx only-allow pnpm",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "dev": "vite",
+    "preview": "vite preview",
+    "preview:build": "vite build"
   },
   "keywords": [],
   "author": "",
@@ -18,14 +21,18 @@
     "@changesets/cli": "^2.26.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "@vue/compiler-sfc": "^3.3.4",
     "eslint-config-ali": "^14.0.2",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-vue": "^9.15.0",
     "rollup": "^3.25.1",
     "tdesign-vue": "1.4.4-naruto",
+    "vite-plugin-vue2": "^2.0.3",
     "vitepress": "1.0.0-beta.3",
     "vue": "2.7.14",
-    "vue-eslint-parser": "^9.3.1"
+    "vue-eslint-parser": "^9.3.1",
+    "vue-loader": "^17.2.2",
+    "vue-router": "3"
   },
   "dependencies": {
     "vite": "^4.3.9"
