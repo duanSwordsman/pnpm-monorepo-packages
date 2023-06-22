@@ -13,7 +13,8 @@
     "preview:build": "vite build",
     "changeset": "changeset",
     "changeset:publish": "changeset publish",
-    "packages:build": "pnpm --filter=@duan-swordsman/* run build"
+    "packages:build": "pnpm --filter=@duan-swordsman/* run build",
+    "lint-fix": "eslint --ext js --ext vue --fix ./"
   },
   "keywords": [],
   "author": "",
@@ -22,12 +23,13 @@
     "@babel/core": "^7.22.5",
     "@babel/eslint-parser": "^7.22.5",
     "@changesets/cli": "^2.26.1",
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@vitejs/plugin-vue-jsx": "^3.0.1",
     "@vue/compiler-sfc": "^3.3.4",
+    "eslint": "^8.43.0",
     "eslint-config-ali": "^14.0.2",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-vue": "^9.15.0",
+    "less": "2",
+    "less-loader": "5",
     "rollup": "^3.25.1",
     "tdesign-vue": "1.4.4-naruto",
     "vite-plugin-vue2": "^2.0.3",
@@ -35,7 +37,8 @@
     "vue": "2.7.14",
     "vue-eslint-parser": "^9.3.1",
     "vue-loader": "^17.2.2",
-    "vue-router": "3"
+    "vue-router": "3",
+    "vue-server-renderer": "2.7.14"
   },
   "dependencies": {
     "vite": "^4.3.9"

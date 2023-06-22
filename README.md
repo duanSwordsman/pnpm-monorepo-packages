@@ -60,3 +60,4 @@ $ pnpm i package1 -r --filter package2
 }
 ```
 注：preinstall 脚本会在 install 之前执行，现在，只要有人运行 npm install 或 yarn install，就会调用 only-allow 去限制只允许使用 pnpm 安装依赖
+
