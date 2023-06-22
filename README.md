@@ -16,3 +16,27 @@
 # node版本： >= 16.19.0
 $ npm install -g pnpm
 ```
+
+2. 工程结构
+
+```js
+---- docs: 文档文件夹（采用vuepress架构）
+  |
+  |- packages: 组件文件夹
+  |
+  |- preview： 实例文件夹
+  |
+  |- .changeset: 版本管理
+  |
+  |- vite.config.js：vite配置文件，本工程以vite作为工程化工具
+  |
+  |- pnpm-workspace.yaml: 启动pnpm的workspace功能，该文件指定工作空间目录
+```
+
+3. 全局公共依赖安装
+
+```js
+pnpm i -w vue
+```
+
+注：`-w`、`--workspace-root`，将指定的依赖安装到工程的跟目录下，作为所有package的公共依赖
