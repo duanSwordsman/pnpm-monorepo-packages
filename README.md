@@ -39,4 +39,24 @@ $ npm install -g pnpm
 pnpm i -w vue
 ```
 
-注：`-w`、`--workspace-root`，将指定的依赖安装到工程的跟目录下，作为所有package的公共依赖
+注：`-w`、`--workspace-root`，将指定的依赖安装到工程的跟目录下，作为所有package的公共依赖；`-D`，安装一个依赖库，添加到devDependencies
+
+```js
+
+$ pnpm add package1 --filter package2
+```
+注：给 `package2` 安装 `package1`依赖库；
+
+```js
+$ pnpm i package1 -r --filter package2
+```
+注：模块之间相互依赖，  给 `package2` 安装 `package1`依赖库；
+
+```js
+{
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  }
+}
+```
+注：preinstall 脚本会在 install 之前执行，现在，只要有人运行 npm install 或 yarn install，就会调用 only-allow 去限制只允许使用 pnpm 安装依赖
