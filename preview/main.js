@@ -20,6 +20,10 @@ const router = new VueRouter({
       path: "/icon",
       component: () => import("./components/Icon.vue"),
     },
+    {
+      path: "/markd",
+      component: () => import("./components/Markd.vue"),
+    },
   ],
 });
 

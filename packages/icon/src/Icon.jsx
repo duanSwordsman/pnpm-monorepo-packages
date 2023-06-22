@@ -33,6 +33,12 @@ export default {
       ],
       default: "24",
     },
+    marginRight: {
+      type: [
+        Number, String,
+      ],
+      default: 8,
+    },
   },
   render() {
     return h("svg", {
@@ -41,6 +47,7 @@ export default {
         width: `${this.width}px`,
         height: `${this.height}px`,
         color: this.color,
+        marginRight: `${this.marginRight}px`,
       },
     },
     [
