@@ -1,0 +1,17 @@
+{
+  "name": "pnpm-monorepo-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.25.1",
+    "tdesign-vue": "1.4.4-naruto",
+    "vue": "2.7.14"
+  }
+}
