@@ -1,7 +1,5 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
 import { createVuePlugin } from 'vite-plugin-vue2';
-import vueJsx from '@vitejs/plugin-vue-jsx'
 
 import { resolve } from 'path';
 
@@ -9,6 +7,9 @@ export default defineConfig(({ command, mode }) => {
   // const env = loadEnv(mode, process.cwd(), '')
 
   return {
+    server: {
+      port: 8080,
+    },
     plugins: [
       createVuePlugin(),
       // vueJsx()

@@ -5,9 +5,6 @@ const sidebar = {
   ]
 }
 const config = {
-  server: {
-    port: 8080
-  },
   themeConfig: {
     sidebar,
   },
