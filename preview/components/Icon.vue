@@ -1,6 +1,7 @@
 <template>
   <div>
     Icon-test
+    <icon name='test'/>
   </div>
 </template>
 

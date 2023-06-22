@@ -10,7 +10,7 @@
           alt="logo"
         />
         <t-menu-item value="dashboard">
-          <icon slot="icon" name="dashboard" />仪表盘
+          <icon slot="icon" name="empty" />仪表盘
         </t-menu-item>
         <t-menu-item value="resource">
           <icon slot="icon" name="server" />资源列表

@@ -1,4 +1,4 @@
-import Icon from "./src/Icon.vue";
+import Icon from "./src/Icon.jsx";
 
 const install = function (Vue, opts = {
 }) {
