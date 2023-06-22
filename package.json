@@ -10,7 +10,9 @@
     "docs:serve": "vitepress serve docs",
     "dev": "vite",
     "preview": "vite preview",
-    "preview:build": "vite build"
+    "preview:build": "vite build",
+    "changeset": "changeset",
+    "packages:build": "pnpm --filter=@duan-swordsman/* run build"
   },
   "keywords": [],
   "author": "",
